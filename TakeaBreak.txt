@@ -1,0 +1,23 @@
+Specs:
+   a pomodoro time counter with the image of a small clock at the upper right hand corner:
+    - the counter is made up of a 25-minute work interval (a pomodoro)
+    - a 3 - 5-minute break is given between intervals
+    - between sets of 4 work intervals(4 pomodoros = a set), there is a 30-minute break reminder
+    a list of 20 favorite songs
+    - the songs are to be randomly chosen by the program
+    - songs, ideally, are only 3 - 5 minutes long
+   a chosen browser
+   links to the music videos of the songs
+
+Steps:
+   1. 2 counters are defined:
+      counter 1 is for a single pomodoro
+      counter 2 is for the number of pomodoros
+   2. A pomodoro timer appears
+   3. Once counter 1 reaches 25 minutes, a song is randomly selected from the list.
+   4. The image of the clock disappears.
+   5. The chosen browser is opened with the url of the music video to be played.
+   6. Once a single song finishes, the browser is closed.
+   7. Steps 2 to 5 are repeated until counter 2 reaches a set.
+   8. A reminder to eat or walk around for 30 minutes is given.
+   9. The program terminates.
